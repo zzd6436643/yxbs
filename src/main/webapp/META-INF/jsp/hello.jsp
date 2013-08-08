@@ -1,3 +1,3 @@
 <html>
-	<title></title>
+	<title>中文测试</title>
 </html>

@@ -1,3 +1,3 @@
 <html>
-	<title>ฤใบรด๓สฆ</title>
+	<title></title>
 </html>

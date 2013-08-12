@@ -1,1 +1,1 @@
- <a href="${ctx}/j_spring_security_logout">logout</a><br>login
+login

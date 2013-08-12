@@ -1,1 +1,1 @@
-not login
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="decorator" content="none"><title>yxbs</title></head></head><body>not login<a href="${ctx}/index/login">返回首页</a></body>

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="decorator" content="none">
 <title>yxbs</title>
-<link rel="stylesheet" href="/resources/js/lib/bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" href="${ctx}/resources/js/lib/bootstrap/css/bootstrap.css" />
 <style type="text/css">
       body {
         padding-top: 40px;

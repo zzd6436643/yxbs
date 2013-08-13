@@ -1,1 +1,1 @@
-<%@ page contentType="text/html;charset=UTF-8"%><%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%>403啊403
+<%@ page contentType="text/html;charset=UTF-8"%><%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%><page:applyDecorator name="default">错误代码403:请联系管理员开启该菜单的访问权限</page:applyDecorator>

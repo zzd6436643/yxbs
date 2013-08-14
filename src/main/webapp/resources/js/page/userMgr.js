@@ -1,1 +1,1 @@
-$(function(){	var options = {		currentPage: 4,		totalPages: 10,		numberOfPages:5	};	$('#pagination').bootstrapPaginator(options);});
+$(function(){	var options = {		currentPage: 4,		totalPages: 10,		numberOfPages:5,		onPageClicked:function(){			alert(123);		},		onPageChanged:function(){			alert(456);		}	};	$('#pagination').bootstrapPaginator(options);});

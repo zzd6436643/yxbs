@@ -1,0 +1,1 @@
+package org.jzw.yxbs.annotation;public @interface TrimBlank4String {}

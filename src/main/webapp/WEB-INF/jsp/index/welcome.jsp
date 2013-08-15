@@ -38,7 +38,7 @@
         padding: 7px 9px;
       }
 </style>
-
+<link rel="shortcut icon" href="/resources/images/depp.png" type="">
 </head>
 <body>
 	<div class="container">

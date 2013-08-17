@@ -1,1 +1,1 @@
-<%@ page contentType="text/html;charset=UTF-8"%>login
+<%@ page contentType="text/html;charset=UTF-8"%><%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%>你上次登录时间为:${lastloginTime}

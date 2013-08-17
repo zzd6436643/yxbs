@@ -1,0 +1,1 @@
+package org.jzw.yxbs.service;public interface IndexService {		public String getLastLoginTime(String username);		public void updateLastLoginTime(String username);	}

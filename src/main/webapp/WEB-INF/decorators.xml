@@ -6,6 +6,12 @@
     <decorator name="none"/>
     
     <decorator name="default" page="default.jsp">
-    	<pattern>/*</pattern>
+    	<pattern>/index/*</pattern>
+    	<pattern>/userMgr/*</pattern>
+    	<pattern>/reports/*</pattern>
+    </decorator>
+    
+    <decorator name="bbs" page="../bbs/layout/default.jsp">
+    	<pattern>/bbs/*</pattern>
     </decorator>
 </decorators> 

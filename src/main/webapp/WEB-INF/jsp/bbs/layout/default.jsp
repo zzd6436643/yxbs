@@ -2,9 +2,9 @@
 <%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%>
 <!doctype html>
 <html>
+<title>魔力红社区</title>
 <head>
 <%@ include file="/WEB-INF/jsp/common/meta.jsp"%>
-<title><decorator:title /> | yxbs</title>
 <script src="${ctx}/resources/js/lib/jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script src="${ctx}/resources/js/lib/json2/json2.js" type="text/javascript"></script>
 <link rel="stylesheet" href="${ctx}/resources/js/lib/bootstrap/css-bbs/bootstrap.css" />
@@ -36,7 +36,7 @@
 	}
 </style>
 </head>
-<title>魔力红社区</title>
+
 <body id="mainframe">
 	<div class="container-narrow">
       <div class="masthead">
@@ -52,11 +52,9 @@
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="span12" >
-				<i class="icon-signal"></i>今日：|昨日：|贴子：|会员：
+				<i class="icon-signal"></i>今日：|昨日：|贴子：|会员：<i class="icon-signal"></i>
 			</div>
-			<div class="span12">
-				<decorator:body />
-			</div>
+			<decorator:body />
 		</div>
 	</div>
 	<footer style="text-align: center; margin: 10px 0;">

@@ -6,6 +6,11 @@
 <meta name="decorator" content="none">
 <title>yxbs</title>
 <link rel="stylesheet" href="${ctx}/resources/js/lib/bootstrap/css/bootstrap.css" />
+<script src="${ctx}/resources/js/lib/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="${ctx}/resources/js/lib/bootstrap/js/html5shim.js" type="text/javascript"></script>
+<![endif]-->
 <style type="text/css">
       body {
         padding-top: 40px;

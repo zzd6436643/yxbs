@@ -1,0 +1,1 @@
+package org.jzw.yxbs.exception;public class UserNameExistException extends Exception {	private static final long serialVersionUID = -2702812682291065939L;	    public UserNameExistException(String message) {    	super(message);    }}

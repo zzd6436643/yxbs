@@ -1,7 +1,7 @@
 package org.jzw.yxbs.domain;
 
 /**
- * BBS的Section DAO
+ * BBS的Section
  * 
  * @author mOnsoOn
  *

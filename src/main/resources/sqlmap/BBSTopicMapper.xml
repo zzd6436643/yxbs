@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jzw.yxbs.dao.BBSTopicDao">
+
+	<sql id="topicCondition">
+		<if test="sectionID != null">
+			and sid = #{sectionID} 
+		</if>
+		<if test="tid != null">
+			and tid = #{tid}
+		</if>
+	</sql>
+
+	<select id="selectTopic" resultType="org.jzw.yxbs.domain.Topic">
+		select
+		tid tid,sid sid,ticon icon, ttitle title, ttime timestamp, tstate tstate, tmcount tmcount, trcount trcount
+		from
+		bbs_topic
+		<where>
+			<include refid="topicCondition" />
+		</where>
+		<if test="pageIndex != null and pageSize != null">
+			limit #{pageBeginIndex},#{pageSize}
+		</if>
+	</select>
+
+</mapper>

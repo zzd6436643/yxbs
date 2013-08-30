@@ -2,7 +2,7 @@
 <%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%>
 <meta name="decorator" content="bbs">
 <script type="text/javascript">
-	var sec = 5;
+	var sec = 3;
 	function countDown()
 	{
 		if (sec > 0) {
@@ -13,7 +13,7 @@
 		}
 		else
 		{
-			window.location.href = "${ctx}/bbs/topic?tid=${tid}";
+			window.location.href = "${ctx}/bbs/message?mid=${mid}";
 		}
 	}
 	window.onload = countDown;

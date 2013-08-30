@@ -1,19 +1,18 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <%@ include file="/WEB-INF/jsp/common/taglibs.jsp"%>
 <meta name="decorator" content="bbs">
-<div class="col-12">
+<div class="col-md-12">
 		<ol class="breadcrumb">
   			<li><a href="${ctx}/bbs/index" class="active">魔力红社区</a></li>
 		</ol>
 </div>
 <c:forEach items="${listSections}" var="section">
-	<div class="col-12">
-		<div class="panel panel-info">
+	<div class="col-md-12">
+		<div class="panel panel-primary">
 				<div class="panel-heading">
 					<span class="glyphicon glyphicon-book"></span>
-					<a class="panel-title" href="${ctx}/bbs/detail?sid=${section.sid}"><c:out value="${section.sname}" escapeXml="false"/></a>
+					<c:out value="${section.sname}" escapeXml="false"/>
 				</div>
-				<div class="panel-body">
 					<c:set var="keys" value="${section.sid}" />
 					<c:forEach items="${mapTopic[pageScope.keys]}" var="topic">
 						<table class="table table-striped">
@@ -29,7 +28,6 @@
 						</table>
 						
 					</c:forEach>
-				</div>
 		</div>
 	</div>
 </c:forEach>

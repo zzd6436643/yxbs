@@ -34,7 +34,7 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-12" >
+			<div class="col-md-12" >
 				<span class="glyphicon glyphicon-align-right"></span><small>今日：|昨日：|贴子：|会员：</small><span class="glyphicon glyphicon-align-left"></span>
 			</div>
 		</div>
@@ -42,7 +42,7 @@
 			<decorator:body />
 		</div>
 		<div class="row">
-			<div class="col-12">
+			<div class="col-md-12">
 				<div class="panel panel-info">
 						<div class="panel-heading">
 							<span class="glyphicon  glyphicon-heart"></span>

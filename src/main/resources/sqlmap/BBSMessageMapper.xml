@@ -8,11 +8,14 @@
 		<if test="tid != null">
 			and tid = #{tid}
 		</if>
+		<if test="mid != null">
+			and mid = #{mid}
+		</if>
 	</sql>
 
 	<select id="selectMessages" resultType="org.jzw.yxbs.domain.Message">
 		select
-		mid mid,tid tid,username username, mtitle mtitle, mcontent mcontent, mtime mtime, mstate mstate, mlastreply mlastreply
+		mid mid,tid tid,username username, mtitle mtitle, mcontent mcontent, mtime mtime, mstate mstate, mlastreply lastReplyTime
 		from
 		bbs_message
 		<where>

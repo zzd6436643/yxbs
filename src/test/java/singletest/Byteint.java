@@ -1,0 +1,1 @@
+package singletest;public class Byteint {	/**	 * @param args	 */	public static void main(String[] args) {		int i = 1177;		System.out.println(i);		System.out.println(i>>8);		System.out.println((byte)i);		System.out.println((byte)('B'&0xf));		System.out.println((byte)('R'&0xf));		System.out.println((byte)(i>>8));		short s = 32767;		System.out.println(s);	}}
